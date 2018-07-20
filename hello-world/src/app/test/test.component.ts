@@ -16,6 +16,7 @@ export class TestComponent implements OnInit {
 	public name="Event Binding!";
 	public data="";
 	public greeting = "";
+  public eventtype = "";
 
 	onClick(event){
 		console.log(event);
